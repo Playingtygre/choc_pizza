@@ -1,8 +1,130 @@
-header {
-  display: inline-block;
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
+header {
+  position: relative;
+}
+
+.slogan {
+  display: inline;
+}
+
+.tagline {
+  font-size: 11px;
+  color: grey;
+  position: relative;
+  left: 55px;
+  bottom: 35px;
+}
+
+header h2 {
+  font-size: 36px;
+  font-family: Brush Script Std, Brush Script MT, cursive;
+  margin-left: 50px
+}
+
+.fork {
+  position: absolute;
+  top: 4px;
+  left: 0px;
 }
 
 .topright {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+h1 {
+  line-height: 1px;
+  margin-top: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.title {
+  position: relative;
+}
+
+.pizzafont {
+  left: 40px;
+}
+
+#post {
+  color: grey;
+  font-size: 12px;
+}
+
+.print {
+  list-style: none;
+  position: absolute;
+  right: 80px;
+  top: 15px;
+}
+
+.print li {
+  display: inline;
+  color: grey;
+}
+
+.bigpic {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.one {
+  display: inline-block;
+}
+
+.two {
+  display: inline-block;
+}
+
+.context {
+  color: grey;
+  text-indent: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.recipe {
+  background-image: url("img/list-bg.png");
+  border: thin grey solid;
+  margin-bottom: 20px;
+}
+
+.recipe ul {
+  list-style: inside circle;
+  width: 300px;
+}
+
+.person {
+  border-top: dotted;
+  display: inline-block;
+}
+
+.person h4 {
+  float: left;
+}
+
+.vanessa {
+  position: absolute;
+}
+
+.person p {
+  padding-left: 90px;
+}
+
+h5 {
+  background-color: rgb(193, 88, 14);
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  color: white;
   float: right;
+  position: relative;
 }
