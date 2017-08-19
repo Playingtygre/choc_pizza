@@ -39,9 +39,10 @@ header h2 {
 
 h1 {
   line-height: 1px;
-  margin-top: 40px;
+  margin-top: 80px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
+  margin-left: 40px;
 }
 
 .title {
@@ -49,12 +50,13 @@ h1 {
 }
 
 .pizzafont {
-  left: 40px;
+
 }
 
 #post {
   color: grey;
   font-size: 12px;
+  margin-left: 40px;
 }
 
 .print {
@@ -95,6 +97,10 @@ h1 {
   background-image: url("img/list-bg.png");
   border: thin grey solid;
   margin-bottom: 20px;
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .recipe ul {
@@ -102,9 +108,15 @@ h1 {
   width: 300px;
 }
 
+.recipe li {
+  font-size: 20px;
+  color: grey;
+}
+
 .person {
-  border-top: dotted;
-  display: inline-block;
+  margin-top: 20px
+  width: 100%;
+  display: relative;
 }
 
 .person h4 {
@@ -112,19 +124,40 @@ h1 {
 }
 
 .vanessa {
+  padding: 20px;
   position: absolute;
 }
 
 .person p {
-  padding-left: 90px;
+  padding-left: 100px;
+  padding-top: 20px
 }
 
 h5 {
-  background-color: rgb(193, 88, 14);
+  background-color: #C88A56;
   width: 100px;
   height: 40px;
   padding: 10px;
   color: white;
-  float: right;
   position: relative;
+  float: right;
+}
+
+.lineseparator {
+  height: 1px;
+  background: grey;
+  border-bottom: 1px solid grey;
+  z-index: 0;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 110px;
+  color: grey;
+  z-index: 1;
+}
+
+.line {
+  color: grey;
 }
