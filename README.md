@@ -1,1 +1,1 @@
-This is a read me
+This is an attempt to recreate the chocolate pizza pdf page. The lab instructions are located here: https://github.com/codefellows/seattle-201d25/tree/master/class-10-js_debugging-wireframe_part_2/lab
